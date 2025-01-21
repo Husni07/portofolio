@@ -1,7 +1,7 @@
 'use client'
 import { useState, useRef, useEffect } from "react"
 import Link from "next/link"
-import Bar from "../elements/Bar"
+import Bar from "../Elements/Bar"
 
 const Navbar = () => {
   const [open, setOpen] = useState(false)
@@ -24,7 +24,7 @@ const Navbar = () => {
     <div className='flex w-full justify-center items-center h-[4.5rem] fixed shadow-sm px-5 xl:px-0 z-[999]'>
         <div className='flex w-[75rem] justify-between items-center text-slate-800'>
             <div className='text-xl font-semibold'>
-                <Link href="/" className="text-white">
+                <Link href="/" className="text-w">
                 ~//////////~
                 </Link>
             </div>

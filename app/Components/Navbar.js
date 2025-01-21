@@ -34,7 +34,7 @@ const Navbar = () => {
                     <li className="ease-linear duration-200 hover:text-white"><a href="#about">About</a></li>
                     <li className="ease-linear duration-200 hover:text-white"><a href="#projects">Projects</a></li>
                     <li className="ease-linear duration-200 hover:text-white"><a href="#experience">Experience</a></li>
-                    <li className="ease-linear duration-200 hover:text-white"><a href="#contact">Contact</a></li>
+                    <li className="ease-linear duration-200 hover:text-white"><a href="https://chat.mubarrok.my.id">Contact</a></li>
                 </ul>
                 <div className="relative flex flex-col" ref={divRef}>
                     <Bar onclick={() => setOpen(!open)}/>
@@ -51,7 +51,7 @@ const Navbar = () => {
                         <a href="#experience" className="flex md:hidden justify-between text-black p-2 bg-slate-50 rounded-md items-center shadow-inner cursor-pointer transition-all hover:bg-slate-100">
                             <h1 className='font-semibold text-sm'>Experience</h1>
                         </a>
-                        <a href="#contact" className="flex md:hidden justify-between text-black p-2 bg-slate-50 rounded-md items-center shadow-inner cursor-pointer transition-all hover:bg-slate-100">
+                        <a href="https://chat.mubarrok.my.id" className="flex md:hidden justify-between text-black p-2 bg-slate-50 rounded-md items-center shadow-inner cursor-pointer transition-all hover:bg-slate-100">
                             <h1 className='font-semibold text-sm'>Contact</h1>
                         </a>
                         {/* <a href="https://tekkomai.vercel.app/" target="_blank" className="flex justify-between text-black px-2 py-2 bg-slate-50 rounded-md items-center shadow-inner cursor-pointer transition-all hover:bg-slate-100">

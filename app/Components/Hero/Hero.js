@@ -23,13 +23,13 @@ const Hero = () => {
               <span>Read more about Me</span>
               <ArrowRight className="h-4 w-4 transition duration-200 group-hover:translate-x-1" />
             </Link>
-            <Socials/>
+            <Socials />
             <Link
               href="#about"
               className="group w-fit absolute left-0 right-0 bottom-10 animate-bounce mx-auto flex"
             >
               <MoveDown className="h-6 w-6 m-2 transition duration-200 group-hover:translate-y-4" />
-              </Link>
+            </Link>
           </div>
         </div>
       </div>

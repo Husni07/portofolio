@@ -6,7 +6,6 @@ const HeroAnimation = () => {
   const canvasRef = useRef(null);
 
   useEffect(() => {
-    // Pastikan kode hanya berjalan di klien
     if (typeof window === "undefined") return;
 
     const canvas = canvasRef.current;

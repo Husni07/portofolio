@@ -10,6 +10,8 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        abu: "#090909",
+        pinkMe: "#DE1D8D",
       },
     },
   },

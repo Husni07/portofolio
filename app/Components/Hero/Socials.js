@@ -14,7 +14,6 @@ const Socials = () => {
         </Link>
       </button>
 
-      {/* Instagram */}
       <button>
         <Link
           href="https://instagram.com/"
@@ -25,7 +24,6 @@ const Socials = () => {
         </Link>
       </button>
 
-      {/* YouTube */}
       <button>
         <Link
           href="https://youtube.com/"
@@ -36,7 +34,6 @@ const Socials = () => {
         </Link>
       </button>
 
-      {/* Github */}
       <button>
         <Link
           href="https://github.com/"

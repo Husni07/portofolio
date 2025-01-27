@@ -1,136 +1,57 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { DATA } from "../../Data";
+
 const Projects = () => {
   return (
-    <div className="bg-black w-full p-4 pt-10" id="projects">
-      <div className="mx-auto bg-black max-w-3xl px-4 sm:px-9 xl:max-w-5xl xl:px-7">
-        <h1 className="mb-8 text-2xl font-bold">Projects</h1>
-        <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
-          <article className="flex max-w-lg flex-col-reverse rounded-xl border-[1px] border-tertiary bg-abu py-4 px-6 transition duration-200 hover:border-accent md:hover:scale-[1.01]">
-            {/* Konten Deskripsi */}
-            <div className="mt-8 flex flex-col space-y-4">
-              <Link href="#">
-                <h2 className="text-lg font-semibold text-gray-100 transition duration-200 hover:opacity-60">
-                  anu ini judulya
-                </h2>
-              </Link>
-              <p className="text-sm text-gray-300">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque,
-                fuga!
-              </p>
-              <p className="text-gray-300 transition duration-200 hover:opacity-60">
-                February 15th, 2025
-              </p>
-            </div>
-
-            {/* Gambar */}
-            <Link
-              href="#"
-              className="aspect-[16/9] overflow-hidden rounded-2xl drop-shadow-md"
+    <div className="bg-black w-full p-4 py-20" id="projects">
+      <div className="m-auto bg-black max-w-3xl px-4 sm:px-9 xl:max-w-5xl xl:px-7">
+        <h1 className="text-2xl mb-2 w-fit border-b-2 border-pinkMe font-bold">
+          Projects
+        </h1>
+        <h1 className="mb-8 text-base font-light">
+          A list of projects I have been working on or built
+        </h1>
+        <div className="grid justify-center grid-cols-1 gap-4 lg:grid-cols-2">
+          {DATA.projects.map((project, i) => (
+            <div
+              key={i}
+              className="flex max-w-lg flex-col-reverse rounded-xl border-[1px] bg-abu py-4 px-6 transition transform duration-500 hover:border-pinkMe md:hover:scale-[1.01]"
             >
-              <Image
-                src="/Assets/Image/image1.jpeg"
-                width={640}
-                height={75}
-                alt="Contoh Proyek"
-                className="rounded-lg transition duration-200 hover:opacity-60"
-              />
-            </Link>
-          </article>
-          <article className="flex max-w-lg flex-col-reverse rounded-xl border-[1px] border-tertiary bg-abu py-4 px-6 transition duration-200 hover:border-accent md:hover:scale-[1.01]">
-            {/* Konten Deskripsi */}
-            <div className="mt-8 flex flex-col space-y-4">
-              <Link href="#">
-                <h2 className="text-lg font-semibold text-gray-100 transition duration-200 hover:opacity-60">
-                  anu ini judul
-                </h2>
+              <div className="mt-8 flex flex-col">
+                <Link href={project.website} target="_blank">
+                  <h2 className="text-lg font-semibold text-gray-100 transition duration-200 hover:opacity-60">
+                    {project.title}
+                  </h2>
+                </Link>
+                <p className="text-sm text-gray-300">{project.description}</p>
+                <div className="flex flex-wrap mt-5 gap-1">
+                  {project.tech.map((tech, techIndex) => (
+                    <span
+                      key={techIndex}
+                      className="bg-zinc-900 text-[11px] p-1 px-2 rounded-md"
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
+              <Link
+                href={project.website}
+                target="_blank"
+                className="aspect-[16/9] overflow-hidden rounded-2xl drop-shadow-md"
+              >
+                <Image
+                  src={project.image}
+                  width={640}
+                  height={75}
+                  alt={project.title}
+                  className="rounded-lg transition transform duration-500 hover:scale-110 hover:opacity-60"
+                />
               </Link>
-              <p className="text-sm text-gray-300">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque,
-                fuga!
-              </p>
-              <p className="text-gray-300 transition duration-200 hover:opacity-60">
-                February 15th, 2025
-              </p>
             </div>
-
-            {/* Gambar */}
-            <Link
-              href="#"
-              className="aspect-[16/9] overflow-hidden rounded-2xl drop-shadow-md"
-            >
-              <Image
-                src="/Assets/Image/image1.jpeg"
-                width={640}
-                height={75}
-                alt="Contoh Proyek"
-                className="rounded-lg transition duration-200 hover:opacity-60"
-              />
-            </Link>
-          </article>
-          <article className="flex max-w-lg flex-col-reverse rounded-xl border-[1px] border-tertiary bg-abu py-4 px-6 transition duration-200 hover:border-accent md:hover:scale-[1.01]">
-            {/* Konten Deskripsi */}
-            <div className="mt-8 flex flex-col space-y-4">
-              <Link href="#">
-                <h2 className="text-lg font-semibold text-gray-100 transition duration-200 hover:opacity-60">
-                  anu ini judul
-                </h2>
-              </Link>
-              <p className="text-sm text-gray-300">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque,
-                fuga!
-              </p>
-              <p className="text-gray-300 transition duration-200 hover:opacity-60">
-                February 15th, 2025
-              </p>
-            </div>
-
-            {/* Gambar */}
-            <Link
-              href="#"
-              className="aspect-[16/9] overflow-hidden rounded-2xl drop-shadow-md"
-            >
-              <Image
-                src="/Assets/Image/image1.jpeg"
-                width={640}
-                height={75}
-                alt="Contoh Proyek"
-                className="rounded-lg transition duration-200 hover:opacity-60"
-              />
-            </Link>
-          </article>
-          <article className="flex max-w-lg flex-col-reverse rounded-xl border-[1px] border-tertiary bg-abu py-4 px-6 transition duration-200 hover:border-accent md:hover:scale-[1.01]">
-            {/* Konten Deskripsi */}
-            <div className="mt-8 flex flex-col space-y-4">
-              <Link href="#">
-                <h2 className="text-lg font-semibold text-gray-100 transition duration-200 hover:opacity-60">
-                  anu ini judul
-                </h2>
-              </Link>
-              <p className="text-sm text-gray-300">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque,
-                fuga!
-              </p>
-              <p className="text-gray-300 transition duration-200 hover:opacity-60">
-                February 15th, 2025
-              </p>
-            </div>
-
-            {/* Gambar */}
-            <Link
-              href="#"
-              className="aspect-[16/9] overflow-hidden rounded-2xl drop-shadow-md"
-            >
-              <Image
-                src="/Assets/Image/image1.jpeg"
-                width={640}
-                height={75}
-                alt="Contoh Proyek"
-                className="rounded-lg transition duration-200 hover:opacity-60"
-              />
-            </Link>
-          </article>
+          ))}
         </div>
       </div>
     </div>

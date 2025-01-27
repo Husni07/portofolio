@@ -34,19 +34,19 @@ const Navbar = () => {
           <ul
             className={`hidden md:flex gap-8 text-lg font-medium w-full transition-all duration-300 ease-in`}
           >
-            <li className="ease-linear duration-200 hover:text-white rounded py-1 px-2 text-gray-900 hover:bg-gray-200 dark:text-gray-300 dark:hover:bg-abu sm:py-2 sm:px-3">
+            <li className="ease-linear duration-200 hover:text-white rounded-lg py-1 px-2 text-gray-900 hover:bg-gray-200 dark:text-gray-300 dark:hover:bg-abu sm:py-2 sm:px-3">
               <a href="#home">Home</a>
             </li>
-            <li className="ease-linear duration-200 hover:text-white rounded py-1 px-2 text-gray-900 hover:bg-gray-200 dark:text-gray-300 dark:hover:bg-abu sm:py-2 sm:px-3">
+            <li className="ease-linear duration-200 hover:text-white rounded-lg py-1 px-2 text-gray-900 hover:bg-gray-200 dark:text-gray-300 dark:hover:bg-abu sm:py-2 sm:px-3">
               <a href="#about">About</a>
             </li>
-            <li className="ease-linear duration-200 hover:text-white rounded py-1 px-2 text-gray-900 hover:bg-gray-200 dark:text-gray-300 dark:hover:bg-abu sm:py-2 sm:px-3">
+            <li className="ease-linear duration-200 hover:text-white rounded-lg py-1 px-2 text-gray-900 hover:bg-gray-200 dark:text-gray-300 dark:hover:bg-abu sm:py-2 sm:px-3">
               <a href="#projects">Projects</a>
             </li>
-            <li className="ease-linear duration-200 hover:text-white rounded py-1 px-2 text-gray-900 hover:bg-gray-200 dark:text-gray-300 dark:hover:bg-abu sm:py-2 sm:px-3">
+            <li className="ease-linear duration-200 hover:text-white rounded-lg py-1 px-2 text-gray-900 hover:bg-gray-200 dark:text-gray-300 dark:hover:bg-abu sm:py-2 sm:px-3">
               <a href="#experience">Experience</a>
             </li>
-            <li className="ease-linear duration-200 hover:text-white rounded py-1 px-2 text-gray-900 hover:bg-gray-200 dark:text-gray-300 dark:hover:bg-abu sm:py-2 sm:px-3">
+            <li className="ease-linear duration-200 hover:text-white rounded-lg py-1 px-2 text-gray-900 hover:bg-gray-200 dark:text-gray-300 dark:hover:bg-abu sm:py-2 sm:px-3">
               <a href="https://chat.mubarrok.my.id">Contact</a>
             </li>
           </ul>
@@ -88,7 +88,7 @@ const Navbar = () => {
                 <h1 className="font-semibold text-sm">Contact</h1>
               </a>
               <a
-                href="/ai"
+                href="https://wee-ai.web.app/chat"
                 target="_blank"
                 className="flex justify-between text-black px-2 py-2 bg-slate-50 rounded-md items-center shadow-inner cursor-pointer transition-all hover:bg-slate-100"
               >

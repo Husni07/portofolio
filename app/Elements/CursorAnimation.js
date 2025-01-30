@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from "react";
 
-const HeroAnimation = () => {
+const CursorAnimation = () => {
   const canvasRef = useRef(null);
 
   useEffect(() => {
@@ -124,4 +124,4 @@ const HeroAnimation = () => {
   );
 };
 
-export default HeroAnimation;
+export default CursorAnimation;

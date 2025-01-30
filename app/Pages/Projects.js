@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { DATA } from "../../Data";
+import { DATA } from "../Data";
 
 const Projects = () => {
   return (

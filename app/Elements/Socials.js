@@ -6,7 +6,7 @@ const Socials = () => {
     <div className="flex space-x-4 !mt-12">
       <button>
         <Link
-          href="https://twitter.com/"
+          href="https://twitter.com/hsnmbrr"
           target="_blank"
           className="mr-1 rounded-xl group shadow-md border-[1px] border-tertiary bg-secondary/30 h-8 w-8 px-1.5 py-1 inline-flex items-center space-x-1 hover:bg-white hover:text-black transition duration-200"
         >
@@ -16,7 +16,7 @@ const Socials = () => {
 
       <button>
         <Link
-          href="https://instagram.com/"
+          href="https://instagram.com/hsnmbrr"
           target="_blank"
           className="mr-1 rounded-xl group shadow-md border-[1px] border-tertiary bg-secondary/30 h-8 w-8 px-1.5 py-1 inline-flex items-center space-x-1 hover:bg-white hover:text-black transition duration-200"
         >
@@ -26,7 +26,7 @@ const Socials = () => {
 
       <button>
         <Link
-          href="https://youtube.com/"
+          href="https://youtube.com/@hsnmbrr"
           target="_blank"
           className="mr-1 rounded-xl group shadow-md border-[1px] border-tertiary bg-secondary/30 h-8 w-8 px-1.5 py-1 inline-flex items-center space-x-1 hover:bg-white hover:text-black transition duration-200"
         >
@@ -36,7 +36,7 @@ const Socials = () => {
 
       <button>
         <Link
-          href="https://github.com/"
+          href="https://github.com/husni07"
           target="_blank"
           className="mr-1 rounded-xl group shadow-md border-[1px] border-tertiary bg-secondary/30 h-8 w-8 px-1.5 py-1 inline-flex items-center space-x-1 hover:bg-white hover:text-black transition duration-200"
         >

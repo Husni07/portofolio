@@ -1,9 +1,9 @@
 import Image from "next/image";
-import About from "./Components/About/About";
-import Hero from "./Components/Hero/Hero";
-import Projects from "./Components/Projects/Projects";
-import ComingSoon from "./Elements/ComingSoon";
-import Contacts from "./Components/About/Contacts";
+import About from "./Pages/About"
+import Hero from "./Pages/Hero";
+import Projects from "./Pages/Projects";
+import Footer from "./Pages/Footer";
+import Contacts from "./Elements/Contacts";
 
 export default function Home() {
   return (
@@ -12,7 +12,7 @@ export default function Home() {
       <About />
       <Projects />
       <Contacts />
-      <ComingSoon />
+      <Footer />
     </>
   );
 }

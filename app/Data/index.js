@@ -18,7 +18,7 @@ export const DATA = {
       title: "BARR STORE",
       description:
         "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, fuga!",
-      image: "/Assets/Image/image1.jpeg",
+      image: "/Assets/Image/barrstore.webp",
       website: "https://store.mubarrok.my.id",
       tech: [
         "Next.js",
@@ -28,11 +28,11 @@ export const DATA = {
       ],
     },
     {
-      title: "BARR STORE",
+      title: "BARR FLIX",
       description:
         "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, fuga!",
-      image: "/Assets/Image/image1.jpeg",
-      website: "https://store.mubarrok.my.id",
+      image: "/Assets/Image/barrflix.webp",
+      website: "https://flix.mubarrok.my.id",
   
       tech: [
         "Next.js",
@@ -42,11 +42,11 @@ export const DATA = {
       ],
     },
     {
-      title: "BARR STORE",
+      title: "AIRSTAYL VILLA",
       description:
         "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, fuga!",
-      image: "/Assets/Image/image1.jpeg",
-      website: "https://store.mubarrok.my.id",
+      image: "/Assets/Image/airstayl.webp",
+      website: "https://airstayl.vercel.app",
   
       tech: [
         "Next.js",
@@ -56,11 +56,11 @@ export const DATA = {
       ],
     },
     {
-      title: "BARR STORE",
+      title: "FATAYA HOMESTAY",
       description:
         "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, fuga!",
-      image: "/Assets/Image/image1.jpeg",
-      website: "https://store.mubarrok.my.id",
+      image: "/Assets/Image/fataya.webp",
+      website: "https://fatayahomestay.com",
   
       tech: [
         "Next.js",

@@ -2,7 +2,7 @@
 import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import Bar from "../Elements/Bar";
-import ProgressBar from "./ProgressBar";
+import ProgressBar from "../Elements/ProgressBar";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);

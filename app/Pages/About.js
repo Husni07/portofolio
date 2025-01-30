@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="bg-black w-full flex h-screen p-4 pt-10" id="about">
+    <div className="bg-black w-full flex sm:h-screen p-4 pt-10" id="about">
       <div className="m-auto bg-black max-w-3xl px-4 sm:px-9 xl:max-w-5xl xl:px-7">
         <h1 className="mb-8 text-2xl hidden md:block w-fit border-b-2 border-pinkMe font-bold">
           About me

@@ -44,7 +44,7 @@ const Navbar = () => {
               <a href="#projects">Projects</a>
             </li>
             <li className="ease-linear duration-200 hover:text-white rounded-lg py-1 px-2 text-gray-900 hover:bg-gray-200 dark:text-gray-300 dark:hover:bg-abu sm:py-2 sm:px-3">
-              <a href="#experience">Experience</a>
+              <a href="https://v1.mubarrok.my.id">Experience</a>
             </li>
             <li className="ease-linear duration-200 hover:text-white rounded-lg py-1 px-2 text-gray-900 hover:bg-gray-200 dark:text-gray-300 dark:hover:bg-abu sm:py-2 sm:px-3">
               <a href="https://chat.mubarrok.my.id">Contact</a>

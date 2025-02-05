@@ -1,4 +1,4 @@
-"use client"; // Jika menggunakan Next.js 13 atau lebih baru
+"use client";
 
 import { useEffect, useRef } from "react";
 
@@ -14,10 +14,10 @@ const CursorAnimation = () => {
     const m = { x: null, y: null };
     let r = 0;
 
-    const a = 20; // how many dots to have
-    const b = 5; // how fast to spin
-    const c = 0.1; // how much to fade. 1 all, 0.5 half, 0 none
-    const d = 100; // distance from the mouse
+    const a = 20;
+    const b = 5;
+    const c = 0.1;
+    const d = 100;
 
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;

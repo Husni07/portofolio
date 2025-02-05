@@ -5,15 +5,14 @@ const ProgressBar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrollTop = window.scrollY; // Jarak scroll vertikal
-      const documentHeight = document.body.scrollHeight - window.innerHeight; // Total tinggi scrollable halaman
-      const scrollPercentage = (scrollTop / documentHeight) * 100; // Persentase scroll
+      const scrollTop = window.scrollY;
+      const documentHeight = document.body.scrollHeight - window.innerHeight;
+      const scrollPercentage = (scrollTop / documentHeight) * 100;
       setScrollWidth(scrollPercentage);
     };
 
     window.addEventListener("scroll", handleScroll);
 
-    // Cleanup event listener saat komponen tidak lagi digunakan
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };

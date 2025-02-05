@@ -44,10 +44,10 @@ const Navbar = () => {
               <a href="#projects">Projects</a>
             </li>
             <li className="ease-linear duration-200 hover:text-white rounded-lg py-1 px-2 text-gray-900 hover:bg-gray-200 dark:text-gray-300 dark:hover:bg-abu sm:py-2 sm:px-3">
-              <a href="https://v1.mubarrok.my.id">Experience</a>
+              <a href="https://v1.mubarrok.my.id">Portofolio</a>
             </li>
             <li className="ease-linear duration-200 hover:text-white rounded-lg py-1 px-2 text-gray-900 hover:bg-gray-200 dark:text-gray-300 dark:hover:bg-abu sm:py-2 sm:px-3">
-              <a href="https://chat.mubarrok.my.id">Contact</a>
+              <a href="#contacts">Contact</a>
             </li>
           </ul>
           <div className="relative flex flex-col" ref={divRef}>
@@ -76,13 +76,13 @@ const Navbar = () => {
                 <h1 className="font-semibold text-sm">Projects</h1>
               </a>
               <a
-                href="#experience"
+                href="#portofolio"
                 className="flex md:hidden justify-between text-black p-2 bg-slate-50 rounded-md items-center shadow-inner cursor-pointer transition-all hover:bg-slate-100"
               >
-                <h1 className="font-semibold text-sm">Experience</h1>
+                <h1 className="font-semibold text-sm">Portofolio</h1>
               </a>
               <a
-                href="https://chat.mubarrok.my.id"
+                href="#contacts"
                 className="flex md:hidden justify-between text-black p-2 bg-slate-50 rounded-md items-center shadow-inner cursor-pointer transition-all hover:bg-slate-100"
               >
                 <h1 className="font-semibold text-sm">Contact</h1>

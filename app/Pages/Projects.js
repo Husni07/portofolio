@@ -1,9 +1,21 @@
+"use client";
+
 import Image from "next/image";
+import { useState } from "react";
 import Link from "next/link";
 import React from "react";
 import { DATA } from "../Data";
 
 const Projects = () => {
+  const [isLoading, setIsLoading] = useState(false);
+
+  const handleClick = () => {
+    setIsLoading(true);
+
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 2000);
+  };
   return (
     <div className="bg-black w-full p-4 py-20" id="projects">
       <div className="m-auto bg-black max-w-3xl px-4 sm:px-9 xl:max-w-5xl xl:px-7">
@@ -47,12 +59,22 @@ const Projects = () => {
                   width={640}
                   height={75}
                   alt={project.title}
-                  className="rounded-lg transition transform duration-500 hover:scale-110 hover:opacity-60"
+                  className="rounded-lg image transition transform duration-500 hover:scale-110 hover:opacity-60"
                 />
               </Link>
             </div>
           ))}
         </div>
+      </div>
+      <div className="mt-10 flex ">
+        <h1
+          className={`bg-zinc-900 ${
+            isLoading ? "cursor-progress" : "cursor-pointer"
+          } hover:bg-abu mx-auto font-thin duration-200 hover:opacity-60 p-2 px-3 rounded-lg`}
+          onClick={handleClick}
+        >
+          {isLoading ? "Loading..." : "Load more"}
+        </h1>
       </div>
     </div>
   );

@@ -9,7 +9,7 @@
 }
 
 ::selection {
-  background-color: #DE1D8D;
+  background-color: #de1d8d;
   color: #ffffff;
 }
 
@@ -112,4 +112,13 @@ body {
   100% {
     transform: rotate(0deg);
   }
+}
+
+.image {
+  user-drag: none;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }

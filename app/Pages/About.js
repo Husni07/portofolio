@@ -9,7 +9,7 @@ const Hero = () => {
         </h1>
         <div className="flex overflow-hidden flex-col-reverse items-center md:flex-row md:justify-between md:space-y-0">
           <div className="mt-8 flex flex-col justify-center space-y-4 md:mt-0 md:w-2/3">
-            <h1 className="text-4xl sm:text-5xl font-bold will-change-transform">
+            <h1 className="text-4xl sm:text-5xl font-bold">
               Hi I&apos;m{" "}
               <span className="text-transparent bg-clip-text bg-pinkMe">
                 Husni{" "}

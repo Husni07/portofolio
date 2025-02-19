@@ -22,7 +22,7 @@ const Projects = () => {
         <h1 className="text-2xl mb-2 w-fit border-b-2 border-pinkMe font-bold">
           Projects
         </h1>
-        <h1 className="mb-8 text-base font-light">
+        <h1 className="mb-8 text-base opacity-50 font-light">
           A list of projects I have been working on or built
         </h1>
         <div className="grid justify-center grid-cols-1 gap-4 lg:grid-cols-2">

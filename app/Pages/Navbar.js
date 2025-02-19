@@ -34,19 +34,19 @@ const Navbar = () => {
           <ul
             className={`hidden md:flex gap-8 text-lg font-medium w-full transition-all duration-300 ease-in`}
           >
-            <li className="ease-linear duration-200 hover:text-white rounded-lg py-1 px-2 text-gray-900 hover:bg-gray-200 dark:text-gray-300 dark:hover:bg-abu sm:py-2 sm:px-3">
+            <li className="ease-linear duration-200 hover:text-white rounded-lg py-1 px-2 text-gray-9 hover:bg-abu sm:py-2 sm:px-3">
               <a href="#home">Home</a>
             </li>
-            <li className="ease-linear duration-200 hover:text-white rounded-lg py-1 px-2 text-gray-900 hover:bg-gray-200 dark:text-gray-300 dark:hover:bg-abu sm:py-2 sm:px-3">
+            <li className="ease-linear duration-200 hover:text-white rounded-lg py-1 px-2 text-gray-9 hover:bg-abu sm:py-2 sm:px-3">
               <a href="#about">About</a>
             </li>
-            <li className="ease-linear duration-200 hover:text-white rounded-lg py-1 px-2 text-gray-900 hover:bg-gray-200 dark:text-gray-300 dark:hover:bg-abu sm:py-2 sm:px-3">
+            <li className="ease-linear duration-200 hover:text-white rounded-lg py-1 px-2 text-gray-9 hover:bg-abu sm:py-2 sm:px-3">
               <a href="#projects">Projects</a>
             </li>
-            <li className="ease-linear duration-200 hover:text-white rounded-lg py-1 px-2 text-gray-900 hover:bg-gray-200 dark:text-gray-300 dark:hover:bg-abu sm:py-2 sm:px-3">
+            <li className="ease-linear duration-200 hover:text-white rounded-lg py-1 px-2 text-gray-9 hover:bg-abu sm:py-2 sm:px-3">
               <a href="https://v1.mubarrok.my.id">Portofolio</a>
             </li>
-            <li className="ease-linear duration-200 hover:text-white rounded-lg py-1 px-2 text-gray-900 hover:bg-gray-200 dark:text-gray-300 dark:hover:bg-abu sm:py-2 sm:px-3">
+            <li className="ease-linear duration-200 hover:text-white rounded-lg py-1 px-2 text-gray-9 hover:bg-abu sm:py-2 sm:px-3">
               <a href="#contacts">Contact</a>
             </li>
           </ul>

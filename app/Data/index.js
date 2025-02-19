@@ -28,7 +28,7 @@ export const DATA = {
       image: "/Assets/Image/barrflix.webp",
       website: "https://flix.mubarrok.my.id",
 
-      tech: ["Next.js", "Typescript", "Tailwind", "Firebase"],
+      tech: ["Laravel-10", "MySql", "Tailwind", "Firebase"],
     },
     {
       title: "AIRSTAYL VILLA",

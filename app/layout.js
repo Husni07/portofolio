@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "BARR LABS By BARR FOUNDATION",
+  title: "BARR FOUNDATION",
   description: "LET'S WORK TOGETHER.",
 };
 

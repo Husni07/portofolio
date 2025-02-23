@@ -14,6 +14,23 @@ export const DATA = {
   skills: ["JavaScript", "React", "Next.js", "Node.js", "TailwindCSS"],
   projects: [
     {
+      title: "D-INS Startup",
+      description: "D-INS (Digital Inspirasi dan Inovasi)",
+      image: "/Assets/Image/dins-startup.webp",
+      website: "https://startup.mubarrok.my.id/",
+
+      tech: ["Next.js", "Typescript", "Tailwind", "Firebase"],
+    },
+    {
+      title: "AIRSTAYL VILLA",
+      description:
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, fuga!",
+      image: "/Assets/Image/airstayl.webp",
+      website: "https://airstayl.vercel.app",
+
+      tech: ["Next.js", "Typescript", "Tailwind"],
+    },
+    {
       title: "BARR STORE",
       description:
         "A game voucher top-up platform designed to make it easier for users to top up their favorite game balances quickly, securely, and reliably.",
@@ -31,22 +48,13 @@ export const DATA = {
       tech: ["Laravel-10", "MySql", "Tailwind", "Firebase"],
     },
     {
-      title: "AIRSTAYL VILLA",
-      description:
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, fuga!",
-      image: "/Assets/Image/airstayl.webp",
-      website: "https://airstayl.vercel.app",
-
-      tech: ["Next.js", "Typescript", "Tailwind", "Firebase"],
-    },
-    {
       title: "FATAYA HOMESTAY",
       description:
         "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, fuga!",
       image: "/Assets/Image/fataya.webp",
       website: "https://fatayahomestay.com",
 
-      tech: ["Next.js", "Typescript", "Tailwind", "Firebase"],
+      tech: ["Next.js", "Typescript", "Tailwind"],
     },
   ],
 };

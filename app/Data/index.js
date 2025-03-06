@@ -17,7 +17,7 @@ export const DATA = {
       title: "D-INS Startup",
       description: "D-INS (Digital Inspirasi dan Inovasi)",
       image: "/Assets/Image/dins-startup.webp",
-      website: "https://startup.mubarrok.my.id/",
+      website: "https://www.dins.my.id/",
 
       tech: ["Next.js", "Typescript", "Tailwind", "Firebase"],
     },

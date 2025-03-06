@@ -48,6 +48,22 @@ export const DATA = {
       tech: ["Laravel-10", "MySql", "Tailwind", "Firebase"],
     },
     {
+      title: "DIG-U",
+      description: "Universitas digital",
+      image: "/Assets/Image/dig-u.webp",
+      website: "https://dig-u.my.id",
+
+      tech: ["Next.js", "Typescript", "Tailwind", "Firebase"],
+    },
+    {
+      title: "KITA DESAIN",
+      description: "Startup Desain Grafis",
+      image: "/Assets/Image/kitadesain.webp",
+      website: "https://kitadesain.my.id",
+
+      tech: ["Next.js", "Typescript", "Tailwind", "Firebase"],
+    },
+    {
       title: "FATAYA HOMESTAY",
       description:
         "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, fuga!",

@@ -24,7 +24,7 @@ export const DATA = {
     {
       title: "AL-QURAN DIGITAL",
       description:
-        "Aplikasi Al-Quran Digital yang menyediakan akses mudah ke Al-Quran dengan fitur terjemahan dan audio recitation. Dibangun untuk memudahkan umat muslim dalam membaca dan mempelajari Al-Quran.",
+        "Aplikasi Al-Quran Digital yang menyediakan akses mudah ke Al-Quran dengan fitur terjemahan dan audio recitation.",
       image: "/Assets/Image/al-quran.webp",
       website: "https://al-quran.mubarrok.my.id",
       tech: ["Next.js", "Typescript", "Tailwind", "API equran.id"],

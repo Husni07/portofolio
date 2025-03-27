@@ -22,6 +22,15 @@ export const DATA = {
       tech: ["Next.js", "Typescript", "Tailwind", "Firebase"],
     },
     {
+      title: "AIRSTAYL VILLA",
+      description:
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, fuga!",
+      image: "/Assets/Image/airstayl.webp",
+      website: "https://airstayl.vercel.app",
+
+      tech: ["Next.js", "Typescript", "Tailwind"],
+    },
+    {
       title: "AL-QURAN DIGITAL",
       description:
         "Aplikasi Al-Quran Digital yang menyediakan akses mudah ke Al-Quran dengan fitur terjemahan dan audio recitation.",

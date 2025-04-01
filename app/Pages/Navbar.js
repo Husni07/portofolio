@@ -47,7 +47,7 @@ const Navbar = () => {
               <a href="https://v1.mubarrok.my.id">Portofolio</a>
             </li>
             <li className="ease-linear duration-200 hover:text-white rounded-lg py-1 px-2 text-gray-9 hover:bg-abu sm:py-2 sm:px-3">
-              <a href="#contacts">Contact</a>
+              <a href="https://wa.me/6285866242248">Contact</a>
             </li>
           </ul>
           <div className="relative flex flex-col" ref={divRef}>
@@ -82,7 +82,7 @@ const Navbar = () => {
                 <h1 className="font-semibold text-sm">Portofolio</h1>
               </a>
               <a
-                href="#contacts"
+                href="https://wa.me/6285866242248"
                 className="flex md:hidden justify-between text-black p-2 bg-slate-50 rounded-md items-center shadow-inner cursor-pointer transition-all hover:bg-slate-100"
               >
                 <h1 className="font-semibold text-sm">Contact</h1>

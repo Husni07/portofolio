@@ -27,7 +27,7 @@ const Navbar = () => {
       <div className="flex w-[75rem] justify-between items-center text-gray-200">
         <div className="text-xl font-semibold">
           <Link href="/" className="text-w">
-            ~//////////~
+            HM
           </Link>
         </div>
         <div className="flex gap-10 items-center">

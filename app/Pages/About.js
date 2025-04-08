@@ -14,7 +14,9 @@ const Hero = () => {
               <span className="text-transparent bg-clip-text bg-pinkMe">
                 Husni{" "}
               </span>
-              <span className="wave items-center">👋</span>
+              <a href="https://wa.me/6285866242248">
+                <span className="wave items-center">👋</span>
+              </a>
             </h1>
             <h2 className="text-lg font-medium text-gray-400 will-change-transform">
               Junior Web Developer • Web3 Enthusiast • Trader • Blogger • Tech

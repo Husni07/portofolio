@@ -13,8 +13,35 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "BARR FOUNDATION",
+  title: "Husni Mubarrok",
   description: "LET'S WORK TOGETHER.",
+  openGraph: {
+    title: "Husni Mubarrok",
+    description: "LET'S WORK TOGETHER.",
+    url: "https://mubarrok.my.id",
+    siteName: "Husni Mubarrok",
+    images: [
+      {
+        url: "/app/icon.webp",
+        width: 1200,
+        height: 630,
+        alt: "Husni Mubarrok Preview",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Husni Mubarrok",
+    description: "LET'S WORK TOGETHER.",
+    images: ["/app/icon.webp"],
+  },
+  icons: {
+    icon: "/app/icon.webp",
+    shortcut: "/app/icon.webp",
+    apple: "/app/icon.webp",
+  },
 };
 
 export default function RootLayout({ children }) {

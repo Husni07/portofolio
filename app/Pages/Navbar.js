@@ -22,7 +22,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className="flex w-full justify-center items-center h-[4.5rem] fixed shadow-sm px-5 xl:px-0 z-[999]">
+    <div className="flex w-full justify-center items-center h-[4.5rem] fixed shadow-sm px-5 xl:px-0 z-[999] bg-gradient-to-b from-black via-black/70 to-transparent">
       <ProgressBar />
       <div className="flex w-[75rem] justify-between items-center text-gray-200">
         <div className="text-xl font-semibold">

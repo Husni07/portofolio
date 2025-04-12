@@ -47,6 +47,16 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <meta property="og:title" content="Husni Mubarrok" />
+        <meta property="og:description" content="LET'S WORK TOGETHER." />
+        <meta property="og:image" content="https://mubarrok.my.id/icon.jpg" />
+        <meta property="og:url" content="https://mubarrok.my.id" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Husni Mubarrok" />
+        <meta name="twitter:description" content="LET'S WORK TOGETHER." />
+        <meta name="twitter:image" content="https://mubarrok.my.id/icon.jpg" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased text-white`}
       >

@@ -22,25 +22,25 @@ export const metadata = {
     siteName: "Husni Mubarrok",
     images: [
       {
-        url: "/app/icon.webp",
+        url: "/app/icon.jpg",
         width: 1200,
         height: 630,
         alt: "Husni Mubarrok Preview",
       },
     ],
-    locale: "en_US",
+    locale: "id_ID",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
     title: "Husni Mubarrok",
     description: "LET'S WORK TOGETHER.",
-    images: ["/app/icon.webp"],
+    images: ["/app/icon.jpg"],
   },
   icons: {
-    icon: "/app/icon.webp",
-    shortcut: "/app/icon.webp",
-    apple: "/app/icon.webp",
+    icon: "/app/icon.jpg",
+    shortcut: "/app/icon.jpg",
+    apple: "/app/icon.jpg",
   },
 };
 

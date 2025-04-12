@@ -22,7 +22,7 @@ export const metadata = {
     siteName: "Husni Mubarrok",
     images: [
       {
-        url: "/app/icon.jpg",
+        url: "/icon.jpg",
         width: 1200,
         height: 630,
         alt: "Husni Mubarrok Preview",
@@ -35,12 +35,12 @@ export const metadata = {
     card: "summary_large_image",
     title: "Husni Mubarrok",
     description: "LET'S WORK TOGETHER.",
-    images: ["/app/icon.jpg"],
+    images: ["/icon.jpg"],
   },
   icons: {
-    icon: "/app/icon.jpg",
-    shortcut: "/app/icon.jpg",
-    apple: "/app/icon.jpg",
+    icon: "/icon.jpg",
+    shortcut: "/icon.jpg",
+    apple: "/icon.jpg",
   },
 };
 

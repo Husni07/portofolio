@@ -88,11 +88,11 @@ const Navbar = () => {
                 <h1 className="font-semibold text-sm">Contact</h1>
               </a>
               <a
-                href="https://wee-ai.web.app/chat"
+                href="https://server.mubarrok.my.id/"
                 target="_blank"
                 className="flex justify-between text-black px-2 py-2 bg-slate-50 rounded-md items-center shadow-inner cursor-pointer transition-all hover:bg-slate-100"
               >
-                <h1 className="font-semibold text-sm">try my AI</h1>
+                <h1 className="font-semibold text-sm">Server</h1>
                 <span>✨</span>
               </a>
             </div>

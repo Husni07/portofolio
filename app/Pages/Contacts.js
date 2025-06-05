@@ -12,8 +12,8 @@ const Contacts = () => {
           Let&apos;s make something great together
         </span>
         <span className="text-2xl md:text-4xl xl:text-6xl text-end">
-          <Link href="mailto:hi@mubarrok.my.id">
-            hi@<span className="underline">mubarrok.my.id</span>
+          <Link href="mailto:husni@mubarrok.my.id">
+            husni@<span className="underline">mubarrok.my.id</span>
           </Link>
         </span>
       </div>

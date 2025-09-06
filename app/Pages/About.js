@@ -1,6 +1,10 @@
+"use client";
 import Image from "next/image";
+import { useState } from "react";
 
 const Hero = () => {
+  const [isHovered, setIsHovered] = useState(false);
+
   return (
     <div className="bg-black w-full flex sm:h-screen p-4 pt-10" id="about">
       <div className="m-auto bg-black max-w-3xl px-4 sm:px-9 xl:max-w-5xl xl:px-7">
@@ -36,13 +40,35 @@ const Hero = () => {
               Solidity, Web3 and backend technologies).
             </p>
           </div>
-          <div className="relative h-52 w-52 xl:h-64 xl:w-64 overflow-hidden rounded-full">
+          <div
+            className="relative h-52 w-52 xl:h-64 xl:w-64 overflow-hidden rounded-full cursor-pointer transition-all duration-700 ease-in-out hover:scale-100"
+            onMouseEnter={() => setIsHovered(true)}
+            onMouseLeave={() => setIsHovered(false)}
+          >
+            {/* Gambar NFT (gambar default) */}
             <Image
               src="/Assets/Image/nft.webp"
-              alt="image"
+              alt="NFT Image"
               width={500}
               height={500}
-              className="image"
+              className={`absolute inset-0 w-full h-full object-cover transition-all duration-500 ease-in-out ${
+                isHovered
+                  ? "opacity-0 blur-sm scale-110"
+                  : "opacity-100 blur-0 scale-100"
+              }`}
+            />
+
+            {/* Gambar Me (gambar hover) */}
+            <Image
+              src="/Assets/Image/me.jpg"
+              alt="My Photo"
+              width={500}
+              height={500}
+              className={`absolute inset-0 w-full h-full object-cover transition-all duration-500 ease-in-out ${
+                isHovered
+                  ? "opacity-100 blur-0 scale-100"
+                  : "opacity-0 blur-sm scale-110"
+              }`}
             />
           </div>
         </div>

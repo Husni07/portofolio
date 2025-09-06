@@ -49,7 +49,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <meta property="og:title" content="Husni Mubarrok" />
-        <meta property="og:description" content="LET'S WORK TOGETHER." />
+        <meta property="og:description" content="LET'S WORK TOGETHER" />
         <meta property="og:image" content="https://mubarrok.my.id/icon.jpg" />
         <meta property="og:url" content="https://mubarrok.my.id" />
         <meta name="twitter:card" content="summary_large_image" />

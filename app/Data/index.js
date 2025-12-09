@@ -56,7 +56,7 @@ export const DATA = {
       title: "Portal Kampung Inggris",
       description:
         "official website Portal Kampung Inggris, sebuah platform informasi dan layanan terkait data, penyelenggara kursus, info dan program belajar bahasa Inggris di Kampung Inggris.",
-      image: "/Assets/Image/portal-kampung-inggris.png",
+      image: "/Assets/Image/kampung-inggris-portal.png",
       website: "https://kampung-inggris-portal.vercel.app/",
       tech: ["Next.js", "Typescript", "Tailwind", "Supabase"],
     },

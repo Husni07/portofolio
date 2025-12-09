@@ -18,17 +18,47 @@ export const DATA = {
       description: "D-INS (Digital Inspirasi dan Inovasi)",
       image: "/Assets/Image/dins-startup.webp",
       website: "https://www.dins.my.id/",
-
       tech: ["Next.js", "Typescript", "Tailwind", "Firebase"],
     },
     {
       title: "AIRSTAYL VILLA",
       description:
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, fuga!",
+        "webisite resmi Airstayl Villa, sebuah akomodasi villa yang menawarkan pengalaman menginap yang nyaman dan menyenangkan bagi para tamu.",
       image: "/Assets/Image/airstayl.webp",
-      website: "https://airstayl.vercel.app",
-
+      website: "https://www.airstyl.web.id/",
       tech: ["Next.js", "Typescript", "Tailwind"],
+    },
+    {
+      title: "BARR BLOG",
+      description:
+        "website blog pribadi tempat saya berbagi artikel, tutorial, dan pengalaman seputar pengembangan web, artificial intelligence, cryptocurrency dan teknologi.",
+      image: "/Assets/Image/blog.png",
+      website: "https://blog.mubarrok.my.id/",
+      tech: ["Next.js", "Typescript", "Tailwind", "MDX", "Supabase"],
+    },
+    {
+      title: "BEM UKK",
+      description:
+        "official website badan eksekutif mahasiswa universitas Kahuripan Kediri untuk informasi seputar kegiatan dan program kerja.",
+      image: "/Assets/Image/bem-ukk.png",
+      website: "https://bem.kahuripan.ac.id/",
+      tech: ["Next.js", "Typescript", "Tailwind", "Supabase"],
+    },
+    {
+      title: "Barr Resto",
+      description:
+        "Website resmi Barr Resto, sebuah restoran yang menyajikan berbagai hidangan lezat dan minuman segar untuk para pelanggan.",
+      image: "/Assets/Image/barr-resto.png",
+      website: "https://resto.mubarrok.my.id/",
+      tech: ["Next.js", "Typescript", "Tailwind", "Supabase"],
+    },
+    {
+      title: "Portal Kampung Inggris",
+      description:
+        "official website Portal Kampung Inggris, sebuah platform informasi dan layanan terkait data, penyelenggara kursus, info dan program belajar bahasa Inggris di Kampung Inggris.",
+      image: "/Assets/Image/portal-kampung-inggris.png",
+      website: "https://kampung-inggris-portal.vercel.app/",
+      tech: ["Next.js", "Typescript", "Tailwind", "Supabase"],
     },
     {
       title: "AL-QURAN DIGITAL",
@@ -52,7 +82,6 @@ export const DATA = {
         "BarrFlix is a streaming platform that offers a variety of movies and series, designed to provide a comfortable and high-quality viewing experience.",
       image: "/Assets/Image/barrflix.webp",
       website: "https://flix.mubarrok.my.id",
-
       tech: ["Laravel-10", "MySql", "Tailwind", "Firebase"],
     },
     {
@@ -60,7 +89,6 @@ export const DATA = {
       description: "Universitas digital",
       image: "/Assets/Image/dig-u.webp",
       website: "https://dig-u.my.id",
-
       tech: ["Next.js", "Typescript", "Tailwind", "Firebase"],
     },
     {
@@ -68,16 +96,14 @@ export const DATA = {
       description: "Startup Desain Grafis",
       image: "/Assets/Image/kitadesain.webp",
       website: "https://kitadesain.my.id",
-
       tech: ["Next.js", "Typescript", "Tailwind", "Firebase"],
     },
     {
       title: "FATAYA HOMESTAY",
       description:
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, fuga!",
+        "Website resmi Fataya Homestay, sebuah akomodasi homestay yang menawarkan pengalaman menginap yang nyaman dan menyenangkan bagi para tamu.",
       image: "/Assets/Image/fataya.webp",
       website: "https://fatayahomestay.com",
-
       tech: ["Next.js", "Typescript", "Tailwind"],
     },
   ],

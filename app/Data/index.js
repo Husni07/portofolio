@@ -33,7 +33,7 @@ export const DATA = {
       description:
         "website blog pribadi tempat saya berbagi artikel, tutorial, dan pengalaman seputar pengembangan web, artificial intelligence, cryptocurrency dan teknologi.",
       image: "/Assets/Image/blog.png",
-      website: "https://blog.mubarrok.my.id/",
+      website: "https://idcode.my.id/",
       tech: ["Next.js", "Typescript", "Tailwind", "MDX", "Supabase"],
     },
     {

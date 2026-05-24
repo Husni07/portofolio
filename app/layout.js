@@ -56,6 +56,13 @@ export default function RootLayout({ children }) {
         <meta name="twitter:title" content="Husni Mubarrok" />
         <meta name="twitter:description" content="LET'S WORK TOGETHER." />
         <meta name="twitter:image" content="https://mubarrok.my.id/icon.jpg" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-MB265DWJXQ"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-MB265DWJXQ');
+        </script>
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased text-white`}
